@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+.container{
+    width: 100%;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    padding: 0 30px;
+    justify-content: space-between; 
+    align-items: center;
+}
+.menu, .actions{
+    display: flex;
+    gap: 40px;
+}
+.content{
+    width: 100%;
+    height: calc(100vh - 70px);
+    background-image: url(./img/scandinavian-interior-mockup-wall-decal-background\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0 50px;
+}
+.discover{
+    width: 45%;
+    height:60vh ;
+    background-color: #fff3e3;
+    padding: 30px;
+    border-radius:20px ;
+}
+.discover h5{
+    color: #333;
+}
+.discover h2{
+    color: #b88e2f;
+    font-size: 42px;
+    line-height: 52px;
+}
+.discover p{
+    font-size: 18px;
+    color: #333;
+}
+.buyBtn{
+    background-color: #b88e2f;
+    color: white;
+    font-weight: 600;
+    padding: 12px 35px;
+    margin-top: 30px;
+    border: none;
+    transition: .4s;
+}
+.buyBtn:hover{
+    background-color: white;
+    color: #b88e2f;
+    border-color: #b88e2f;
+}
+.title{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title h3{
+    font-size: 32px;
+}
+.btnShow{
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left:600px ;
+    margin-bottom: 30px;
+    background-color: white;
+    color: #b88e2f;
+    border-color: #b88e2f;
+}
+.btnShow:hover{
+    background-color: #b88e2f;
+    color: white;
+    border: none;
+    transition: .4s;
+}
+.cc{
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 95px;
+}
+.end2{
+    width: 100%;
+    height: 90vh;
+    margin-top: 50px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+.btnExp{
+    width: 170px;
+    height: 50px;
+    background-color: #b88e2f;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+.btnExp:hover{
+    background-color: white;
+    color: #b88e2f;
+    border:2px solid #b88e2f;
+    transition: .4s;
+}
